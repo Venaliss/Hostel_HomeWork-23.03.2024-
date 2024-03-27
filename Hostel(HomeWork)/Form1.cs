@@ -49,6 +49,7 @@ namespace Hostel_HomeWork_
             dataAdapter.Fill(ds, "info");
             dataGridView1.DataSource = ds.Tables[0];
         }
+
         private void Hostel_List_Load(object sender, EventArgs e)
         {           
             Time.Text = DateTime.Now.ToLongTimeString();
